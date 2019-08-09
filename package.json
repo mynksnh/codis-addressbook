@@ -1,0 +1,26 @@
+{
+  "name": "addressbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "nodemon -w server server/expressws.js",
+    "build": "babel jsx --out-dir public --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayank Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "nodemon": "^1.19.1"
+  }
+}
